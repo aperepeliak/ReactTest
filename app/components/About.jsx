@@ -12,7 +12,10 @@ let React = require('react');
 //Stateless functional component - such components do not maintain state and have only render function
 let About = (props) => {
     return (
-        <h3>About component</h3>
+        <div>
+            <h3>About component</h3>
+            <p>Welcome to about page</p>
+        </div>
     );
 };
 
