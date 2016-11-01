@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 $space-large: 2.5rem;
 $title-color: #555;
 
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo {
+    font-size: 30px;
+}
+
 .page-title {
+    font-family: 'Raleway', sans-serif;
     color: $title-color;
     margin-top: $space-large;
     margin-bottom: $space-large;
