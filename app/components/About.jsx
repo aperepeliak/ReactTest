@@ -15,13 +15,19 @@ let About = (props) => {
     return (
         <div>
             <h1 className="text-center">About</h1>
-            <p>Welcome to React Weather App. This app uses:</p>
+            <p>Welcome to React Weather App. This is a study project that uses:</p>
             <ul>
                 <li>
-                    <a href="https://facebook.github.io/react">React</a>
+                    <a href="https://facebook.github.io/react">React</a> - JS library for building UI
                 </li>
                 <li>
-                    <a href="https://openWeatherMap.org">OpenWeatherMap</a>
+                    <a href="https://openWeatherMap.org">OpenWeatherMap</a> - API for getting weather data
+                </li>
+                <li>
+                    <a href="https://foundation.zurb.com/">Foundation framework</a> - for styling the app
+                </li>
+                <li>
+                    <a href="https://webpack.github.io/">Webpack</a> - organizing the workflow
                 </li>
             </ul>
         </div>
