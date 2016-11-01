@@ -47,6 +47,15 @@ let Weather = React.createClass({
         }
     },
 
+    componentWillReceiveProps(newProps) {
+        let location = newProps.location.query.location;
+
+        if (location && location.length > 0) {
+            this.handleSearch(location);
+            window.location.hash = '#/';
+        }
+    },
+
     render() {
         let {isLoading, location, temp, errorMessage} = this.state;
 
@@ -57,7 +66,7 @@ let Weather = React.createClass({
                 return <WeatherMessage location={location} temp={temp} />;
             }
         };
-        //debugger;
+
         function renderError() {
             if (typeof errorMessage === 'string') {
                 return (
