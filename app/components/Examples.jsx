@@ -12,7 +12,7 @@ let Examples = (props) => {
                     <Link to="/?location=Kiev">Kiev, UA</Link>
                 </li>
                 <li>
-                    <Link to="/&location=Lviv">Lviv, UA</Link>
+                    <Link to="/?location=Lviv">Lviv, UA</Link>
                 </li>
             </ol>
         </div>

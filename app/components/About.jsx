@@ -30,6 +30,7 @@ let About = (props) => {
                     <a href="https://webpack.github.io/">Webpack</a> - organizing the workflow
                 </li>
             </ul>
+            <p>The project is created based on React course by Andrew Mead.</p>
         </div>
     );
 };
